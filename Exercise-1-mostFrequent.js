@@ -27,6 +27,7 @@ function getTotal(arrNumber) {
     arrNumber[0]
   } dan jumlah kemunculan sebanyak ${count} kali`;
 }
+;
 
 function mostFrequentLargestNumbers(arrNumber) {
   var listSort = sorting(arrNumber);

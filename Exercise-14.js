@@ -8,7 +8,7 @@ function changeVocals(str) {
     A: "B",
     E: "F",
     I: "J",
-    U: "V",
+    U: "V", 
     O: "P"
   };
 
@@ -59,14 +59,13 @@ function removeSpaces(str) {
 }
 
 function passwordGenerator(name) {
-  if (name.length<5) {
-    return 'Minimal karakter yang diinputkan adalah 5 karakter'
-  }else{
+  if (name.length < 5) {
+    return "Minimal karakter yang diinputkan adalah 5 karakter";
+  } else {
     var pass = removeSpaces(name);
     return pass;
   }
 }
-
 
 console.log(passwordGenerator("Sergei Dragunov")); // 'VPNVGBRdJFGRFs'
 console.log(passwordGenerator("Dimitri Wahyudiputra")); // 'BRTVPJDVYHBwJRTJMJd'
